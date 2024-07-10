@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+nav {
+    background-color: #4CAF50;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+}
+
+.content {
+    padding: 20px;
+}
+
+header {
+    background: url('dental-clinic.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+#services, #testimonials {
+    margin: 40px 0;
+}
+
+#services h2, #testimonials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service, .testimonial {
+    background: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    margin-top: 0;
+}
+
+#chatbot {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 400px;
+}
+
+#userInput {
+    width: calc(100% - 90px);
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 70%;
+}
+
+.user {
+    background-color: #e0e0e0;
+    float: right;
+}
+
+.bot {
+    background-color: #4caf50;
+    color: white;
+    float: left;
+}
